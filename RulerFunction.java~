@@ -1,0 +1,10 @@
+public class FunctionTable
+{
+    public static void main(String[] args)
+    {
+        String ruler = " ";
+        for (int i = 1; i <= N; i++)
+            ruler = ruler + i + ruler;
+        System.out.println(ruler);
+    }
+}
